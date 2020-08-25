@@ -18,6 +18,7 @@ export default function Home() {
         <form className={styles.form}>
           <script
             src="https://www.mercadopago.com.pe/integrations/v1/web-tokenize-checkout.js"
+            samesite="none"
             data-public-key=""
             data-transaction-amount="100.00">
           </script>
