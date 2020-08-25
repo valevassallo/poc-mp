@@ -35,6 +35,10 @@
   align-items: center;
 }
 
+.form {
+  width: 80%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
